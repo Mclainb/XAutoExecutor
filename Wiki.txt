@@ -1,0 +1,80 @@
+				              XAutoExecutor
+1.goto:
+x
+y
+This function moves the cursor to the specified screen coordinates .
+To determine these coordinates, you can use the built-in tracker by pressing Ctrl
+2.downclick:
+code of key
+This function presses the key with the specified code.
+3.upclick:
+code of key
+This function depresses the key with the specified code.
+4.mousedownclick:
+left,right
+This function clicks on the specified mouse button.
+5.mouseupclick:
+left,right
+This function depresses the specified mouse button.
+6.if:
+way to file
+text
+	(code)
+stop
+This function takes text from the specified file and if it matches the one written after the path to the file, 
+it does not make the code written up to stop, and if it matches the executed code.
+7.wait:
+miliseconds
+Waits for the specified number of milliseconds.
+8.open:
+file name.file resolution
+Starts the selected file.
+9.shwomessage:
+name
+text
+yesno,ok
+Displays a window with the specified name, text and buttons.
+10.sound:
+Hz
+miliseconds
+Produces the sound of the selected frequency and length.
+				              XAutoExecutor
+1.goto:
+x
+y
+Эта функция перемещает курсор на указанные координаты экрана.
+Для определения этих координат можна воспользоватся встроеным отслеживателем нажав на Ctrl.
+2.downclick:
+code of key
+Эта функция нажимает на клавишу с указанным кодом.
+3.upclick:
+code of key
+Эта функция отжимает на клавишу с указанным кодом.
+4.mousedownclick:
+left,right
+Эта функция нажимает на указанную кнопку мыши.
+5.mouseupclick:
+left,right
+Эта функция отжимает указанную кнопку мыши.
+6.if:
+way to file
+text
+	(code)
+stop
+Эта функция берёт текст из указанного файла и если он совпадает с написаным после пути к файлу,
+то не делает код написаный до стоп,а если совпадает выполняет написаный код.
+7.wait:
+miliseconds
+Ждёт указанное количество миллисекунд.
+8.open:
+file name.file resolution
+Запускает выбранный файл.
+9.shwomessage:
+name
+text
+yesno,ok
+Выводит окошко с указанным именем,текстом и кнопками.
+10.sound:
+Hz
+miliseconds
+Издаёт звук выбранной частоты и длины.
