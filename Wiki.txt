@@ -78,3 +78,23 @@ yesno,ok
 Hz
 miliseconds
 Издаёт звук выбранной частоты и длины.
+				      How to save project
+1.Copy the file Your program.exe to the folder where you want to store your project
+2.Create with XAutoEccector or hand file xc.txt and save it to the project folder
+3.In the file, write name:
+Title of the program
+, and then all the code that can be used in
+XAutoExecutor
+4.After that, run the .exe file
+P.S.
+You can choose any name to .exe file
+				Как сохранить проект
+1.Копируйте файл Your program.exe в папку, в которой вы хотите сохранить свой проект.
+2. Создайте файл с помощью XAutoEccector или в ручную xc.txt и сохраните его в папке проекта
+3.В файле напишите name:
+Название программы
+, а затем весь код, который можно использовать в
+XAutoExecutor
+4. После этого запустите файл .exe
+P.S.
+Вы можете выбрать любое имя в .exe-файле
