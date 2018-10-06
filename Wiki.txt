@@ -18,7 +18,8 @@ left,right
 This function depresses the specified mouse button.
 6.if:
 way to file
-text
+= or !=
+way to file
 	(code)
 stop
 This function takes text from the specified file and if it matches the one written after the path to the file, 
@@ -38,6 +39,11 @@ Displays a window with the specified name, text and buttons.
 Hz
 miliseconds
 Produces the sound of the selected frequency and length.
+11.filetext:
+way to file
+text
+&stop
+This function writes the written text into the selected text document.
 				              XAutoExecutor
 1.goto:
 x
@@ -78,10 +84,16 @@ yesno,ok
 Hz
 miliseconds
 Издаёт звук выбранной частоты и длины.
+11.filetext:
+way to file
+text
+&stop
+Эта функция записывает написанный текст в выбранный текстовый документ.
 				      How to save project
 1.Copy the file Your program.exe to the folder where you want to store your project
-2.Create with XAutoEccector or hand file xc.txt and save it to the project folder
-3.In the file, write name:
+2.Create with XAutoEccector or hand file code.txt and save it to the project folder
+3.In the file, write 
+name:
 Title of the program
 , and then all the code that can be used in
 XAutoExecutor
@@ -90,8 +102,9 @@ P.S.
 You can choose any name to .exe file
 				Как сохранить проект
 1.Копируйте файл Your program.exe в папку, в которой вы хотите сохранить свой проект.
-2. Создайте файл с помощью XAutoEccector или в ручную xc.txt и сохраните его в папке проекта
-3.В файле напишите name:
+2. Создайте файл в ручную code.txt и сохраните его в папке проекта
+3.В файле напишите 
+name:
 Название программы
 , а затем весь код, который можно использовать в
 XAutoExecutor
